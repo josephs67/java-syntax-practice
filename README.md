@@ -1,1 +1,1 @@
-# java_syntax_practice
+# java-syntax-practice
