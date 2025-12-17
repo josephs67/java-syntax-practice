@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Loops {
     
     public static void main(String[] args) {
@@ -61,6 +63,34 @@ public class Loops {
 
         }
 
+
+        for(int q = 1; q < 13; q++){
+
+            for(int w = 1; w < 13; w++){
+
+                System.out.print(q * w + "\t");
+            }
+            System.out.println("");
+
+        }
+
+        Scanner input = new Scanner(System.in);
+        int num1 = 1;
+        int num2 = 2;
+        int num3 = 3;
+        boolean gameGo = true;
+
+        while(gameGo == true){
+            System.out.println("what is your guess?");
+            int guess = input.nextInt();
+            if(guess == 1){
+                System.out.println("Correct! You won!");
+                break;
+            }else{
+                System.out.println("incorrect, keep guessing.");
+            }
+        }
+        
     }
 
 }
