@@ -1,6 +1,19 @@
 import java.util.Arrays;
 public class Inclass {
     public static void main(String[] args) {
+
+
+        int[] price = {0, 0, 0, 0, 0, 0 ,0, 0, 0, 0};
+
+        int[] number = {0, 0, 0, 0, 0, 0, 0 , 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+        for (int i = 0; i < number.length; i++){
+
+            number[i] = 4;
+
+
+        }
+
+
         int[] numbers = {1, 3, 4, 2, 7, 15, 3, 5, 9, 89, 54, 23, 8, 67, 19, 10, 6, 7, 4, 1};
         Arrays.sort(numbers);
         if ((numbers.length % 2) == 1){
