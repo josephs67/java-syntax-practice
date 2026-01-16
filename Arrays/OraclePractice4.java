@@ -1,4 +1,4 @@
-public class OraclePractice1{
+public class OraclePractice4{
 
 public static void main(String[] args) {
     
@@ -22,13 +22,13 @@ public static void main(String[] args) {
 
 
     //#5
-    int[][] arr = new int[16][32];
+    int[][] array = new int[16][32];
 
-    for (int i = 0; i < arr.length; i++) {
-        for (int j = 0; j < arr[i].length; j++) {
-            System.out.print(arr[i][j] + " ");
+    for (int i = 0; i < array.length; i++) {
+        for (int j = 0; j < array[i].length; j++) {
+            System.out.print(array[i][j] + " ");
         }
-        System.out.println(); // moves to next row
+        System.out.println();
     }
 
 
