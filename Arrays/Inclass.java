@@ -20,7 +20,7 @@ public class Inclass {
             System.out.println("median is: " + numbers[numbers.length / 2 + 1]);
         }
         else{
-            System.out.println("median is: " + numbers[numbers.length / 2]);
+            System.out.println("median is: " + ((numbers[numbers.length / 2] + numbers[numbers.length / 2 + 1]) / 2));
         }
             
         }
