@@ -36,6 +36,11 @@ public class ArrayChallenge {
             }else if(board[0][2] == board[1][2] && board[1][2] == board[2][2]){
                 System.out.println(board[0][2] + " wins");
             }
+            if(board[0][0] == board[1][1] && board[1][1] == board[2][2]){
+                System.out.println(board[0][0] + " wins");
+            }else if(board[0][2] == board[1][1] && board[1][1] == board[2][0]){
+                System.out.println(board[0][2] + " wins");
+            }
 
 
 }
